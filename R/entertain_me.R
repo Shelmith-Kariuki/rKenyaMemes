@@ -26,7 +26,7 @@ entertain_me <- function(){
   emoji <- sample(emolist, 1)
 
   ## Display a message
-  cat(green(paste0("Okay, check the `Viewer` pane... ", ji("smile"), "\n")))
+  cat(green(paste0("Okay, check the `Viewer` pane... ", emoji, "\n")))
 
   ## Reduce the size of the image
   meme_moja <- image_scale(meme_moja,"400x400!")

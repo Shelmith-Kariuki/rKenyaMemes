@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "50%",
+  fig.align = "center"
+)
+```
+
+# rKenyaMemes <a href='https://github.com/Shelmith-Kariuki/rKenyaMemes'><img src='man/figures/logo.png' align="right" height="139" /></a> 
+
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of rKenyaMemes is to display memes in the `Viewer` pane.
+
+## Installation
+
+You can install the released version of rKenyaMemes from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("rKenyaMemes")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("Shelmith-Kariuki/rKenyaMemes")
+```
+## Example
+
+```{r example}
+library(rKenyaMemes)
+
+## First run
+entertain_me()
+
+## Second run
+entertain_me()
+```
+
