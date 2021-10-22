@@ -12,6 +12,3 @@ A meme on the \code{Viewer} Pane
 \description{
 Displays memes on the \code{Viewer} pane
 }
-\examples{
-entertain_me()
-}

@@ -8,23 +8,24 @@
 #' @import emo
 #' @export
 #'
-#' @examples
-#' entertain_me()
 entertain_me <- function(){
 
   ## Load the images
-  pichas <- list.files("inst/extdata/")
+  pichas <- list.files("man/images/")
 
   ## Sample one image
-  picha <- sample(pichas, 1)
+  picha <- base::sample(pichas, 1)
 
   ## Read in the image
-  meme_moja <- image_read(paste0("inst/extdata/", picha))
+  meme_moja <- image_read(paste0("man/images/", picha))
 
   ## List of emojis
   emolist <- c(ji("smile"), ji("laugh"), ji("flex"), ji("blush"), ji("tada"), ji("lol"))
 
-  cat(green(paste0("Okay, check the `Viewer` pane... ", sample(emolist, 1), "\n")))
+  # emoji <- emolist[sample(1:length(emolist), 1)]
+
+  ## Display a message
+  cat(green(paste0("Okay, check the `Viewer` pane... ", ji("smile"), "\n")))
   return(image_scale(meme_moja,"400x400!"))
 
 }

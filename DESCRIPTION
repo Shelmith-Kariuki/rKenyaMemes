@@ -1,10 +1,10 @@
 Package: rKenyaMemes
-Title: 
+Title: Package
 Version: 0.0.0.9000
 Authors@R: 
         person(given = "Shelmith", family = "Kariuki", 
         role = c("aut", "cre"), email = "kariukishelmith@gmail.com", comment = c(ORCID = "xxx"))
-Description: 
+Description: Displays memes in the `Viewer` pane.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
