@@ -11,7 +11,6 @@
 entertain_me <- function(){
 
   ## Load the images
-  # pichas <- list.files("man/images/")
   pichas <- list.files('inst/extdata/')
 
   ## Sample one image
@@ -23,10 +22,15 @@ entertain_me <- function(){
   ## List of emojis
   emolist <- c(ji("smile"), ji("laugh"), ji("flex"), ji("blush"), ji("tada"), ji("lol"))
 
-  # emoji <- emolist[sample(1:length(emolist), 1)]
+  ## Sample one emoji
+  emoji <- sample(emolist, 1)
 
   ## Display a message
   cat(green(paste0("Okay, check the `Viewer` pane... ", ji("smile"), "\n")))
-  return(image_scale(meme_moja,"400x400!"))
 
+  ## Reduce the size of the image
+  meme_moja <- image_scale(meme_moja,"400x400!")
+
+  ## Print the output
+  print(meme_moja, info = FALSE)
 }
