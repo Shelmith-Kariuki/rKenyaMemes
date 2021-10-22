@@ -11,13 +11,14 @@
 entertain_me <- function(){
 
   ## Load the images
-  pichas <- list.files("man/images/")
+  # pichas <- list.files("man/images/")
+  pichas <- list.files('inst/extdata/')
 
   ## Sample one image
   picha <- base::sample(pichas, 1)
 
   ## Read in the image
-  meme_moja <- image_read(paste0("man/images/", picha))
+  meme_moja <- image_read(paste0("inst/extdata/", picha))
 
   ## List of emojis
   emolist <- c(ji("smile"), ji("laugh"), ji("flex"), ji("blush"), ji("tada"), ji("lol"))
