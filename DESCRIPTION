@@ -2,8 +2,23 @@ Package: rKenyaMemes
 Title: Package
 Version: 0.0.0.9000
 Authors@R: 
-        person(given = "Shelmith", family = "Kariuki", 
-        role = c("aut", "cre"), email = "kariukishelmith@gmail.com", comment = c(ORCID = "xxx"))
+        c(
+        person(given = "Shelmith", 
+        family = "Kariuki", 
+        role = c("aut", "cre"), 
+        email = "kariukishelmith@gmail.com", 
+        comment = c(ORCID = "xxx")),
+        person(given = "Maëlle",
+             family = "Salmon",
+             role = c("ctb"),
+             email = "maelle.salmon@yahoo.se",
+             comment = c(ORCID = "0000-0002-2815-0399")),
+        person(given = "Caleb",
+        family = "Muoki", 
+        role = c("ctb"), 
+        email = "muokicaleb@tuta.io", 
+        comment = c(ORCID = "0000-0002-6961-3409"))
+        )
 Description: Displays memes in the `Viewer` pane.
 License: MIT + file LICENSE
 Encoding: UTF-8

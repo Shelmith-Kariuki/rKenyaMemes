@@ -32,7 +32,7 @@ library(rKenyaMemes)
 
 ## First run
 entertain_me()
-#> Okay, check the `Viewer` pane... 😄
+#> Okay, check the `Viewer` pane ... 😄
 ```
 
 <img src="man/figures/README-example-1.png" width="50%" style="display: block; margin: auto;" />
@@ -41,7 +41,7 @@ entertain_me()
 
 ## Second run
 entertain_me()
-#> Okay, check the `Viewer` pane... 😄
+#> Okay, check the `Viewer` pane ... 😄
 ```
 
 <img src="man/figures/README-example-2.png" width="50%" style="display: block; margin: auto;" />
